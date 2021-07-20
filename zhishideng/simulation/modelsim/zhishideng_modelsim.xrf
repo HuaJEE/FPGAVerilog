@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, D:/summerschool/zhishideng/state.v
+source_file = 1, D:/summerschool/zhishideng/state_tb.v
+source_file = 1, D:/summerschool/zhishideng/test1.bdf
+source_file = 1, D:/summerschool/zhishideng/test1.vwf
+source_file = 1, D:/summerschool/zhishideng/db/zhishideng.cbx.xml
+design_name = state
+instance = comp, \out[0]~output , out[0]~output, state, 1
+instance = comp, \out[1]~output , out[1]~output, state, 1
+instance = comp, \clk~input , clk~input, state, 1
+instance = comp, \clk~inputclkctrl , clk~inputclkctrl, state, 1
+instance = comp, \brake~input , brake~input, state, 1
+instance = comp, \out[0]~reg0 , out[0]~reg0, state, 1
+instance = comp, \turn~input , turn~input, state, 1
+instance = comp, \out[1]~reg0feeder , out[1]~reg0feeder, state, 1
+instance = comp, \out[1]~reg0 , out[1]~reg0, state, 1
